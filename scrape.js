@@ -27,3 +27,5 @@ function scrape() {
         })
         .catch(console.error);
     };
+
+    scrape(url);
