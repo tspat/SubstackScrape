@@ -29,3 +29,8 @@ function scrape() {
     };
 
     scrape(url);
+
+    module.exports = {
+        scrape: scrape,
+    };
+    
